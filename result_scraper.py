@@ -83,6 +83,7 @@ def get_data_from_page():
 					alert = driver.switch_to.alert
 					alert.accept()
 
-get_data_from_page()
+if __name__ == "__main__":
+	get_data_from_page()
 
 
